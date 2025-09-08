@@ -1,0 +1,50 @@
+# OS
+.DS_Store
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+.python-version
+
+# Build & packaging
+build/
+dist/
+wheelhouse/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Coverage / test
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Logs & caches
+*.log
+.cache/
+
+# DuckDB database files
+mydb.duckdb
+*.duckdb
+*.duckdb.wal
+
+# Docker/compose local overrides
+docker-compose.override.yml
+
